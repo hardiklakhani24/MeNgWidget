@@ -1,0 +1,9 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.ct-series-a .ct-slice-donut {
+    stroke: blue;
+    stroke-width: 5px !important;
+    stroke-linecap: round;
+  }
+  .legend{
+    display: none !important;
+  }

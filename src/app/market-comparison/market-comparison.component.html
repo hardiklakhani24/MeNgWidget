@@ -1,0 +1,35 @@
+<div class="container-fluid layoutSetting">
+  <div id="mcTitle">
+    {{ititle}}
+  </div>
+  <span class="setColor"> Based on {{ititleCount}} similar vehicles in your area</span>
+  <div class="row layoutSetting">
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <canvas id="marketComparison">{{ chart }}</canvas>
+    </div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+  </div>
+  <div class="recharts-legend-wrapper" style="position: relative;">
+    <ul class="recharts-default-legend" style="padding: 0px; margin: 0px; text-align: center;">
+      <li class="recharts-legend-item legend-item-0" style="display: inline-block; margin-right: 10px;">
+        <svg class="recharts-surface" width="14" height="14" viewBox="0 0 32 32" version="1.1" style="display: inline-block; vertical-align: middle; margin-right: 4px;">
+          <path fill="#0070C9" class="recharts-symbols" transform="translate(16, 16)" d="M16,0A16,16,0,1,1,-16,0A16,16,0,1,1,16,0"></path>
+        </svg>
+        <span class="recharts-legend-item-text">Similar Cars</span>
+      </li>
+      <li class="recharts-legend-item legend-item-1" style="display: inline-block; margin-right: 10px;">
+        <svg class="recharts-surface" width="14" height="14" viewBox="0 0 32 32" version="1.1" style="display: inline-block; vertical-align: middle; margin-right: 4px;">
+          <path fill="#13A54E" class="recharts-symbols" transform="translate(16, 16)" d="M16,0A16,16,0,1,1,-16,0A16,16,0,1,1,16,0"></path>
+        </svg>
+        <span class="recharts-legend-item-text">National Average</span>
+      </li>
+      <li class="recharts-legend-item legend-item-2" style="display: inline-block; margin-right: 10px;">
+        <svg class="recharts-surface" width="14" height="14" viewBox="0 0 32 32" version="1.1" style="display: inline-block; vertical-align: middle; margin-right: 4px;">
+          <path fill="#E51359" class="recharts-symbols" transform="translate(16, 16)" d="M16,0A16,16,0,1,1,-16,0A16,16,0,1,1,16,0"></path>
+        </svg>
+        <span class="recharts-legend-item-text">Your Car</span>
+      </li>
+    </ul>
+  </div>
+</div>

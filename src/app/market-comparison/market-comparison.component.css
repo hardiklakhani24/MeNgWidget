@@ -1,0 +1,10 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.layoutSetting{
+    margin-top: 4%;
+}
+.setColor{
+    color: #b3b3b3;
+}
+#mcTitle{
+    font-size: xx-large;
+}
